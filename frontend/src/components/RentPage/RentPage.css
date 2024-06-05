@@ -1,0 +1,21 @@
+.container-rents{
+    background: rgb(175,159,236);
+    width: 100vw;
+    text-align: center;
+}
+.regresar-button {
+    background: white;
+    margin: 10px;
+    color: rgb(15, 20, 50);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 50%;
+  }
+  
+  .regresar-button:hover {
+    background: rgb(10, 15, 40);
+    color: white;
+  }
