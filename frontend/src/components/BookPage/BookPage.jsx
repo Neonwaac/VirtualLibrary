@@ -173,6 +173,7 @@ const BookPage = () => {
               />
               <h2>{selectedBook.books_title}</h2>
               <p>{selectedBook.books_description}</p>
+              <p className = "books_price">Renta de ${selectedBook.books_price} por día</p>
               <label>
                 Duración (días):
                 <div className="input-modal">

@@ -39,8 +39,8 @@ const LoginPage = () => {
     };
 
     return (
-      <div className = "LRbody">
-                <div className='wrapper'>
+      <div className="LRbody">
+        <div className='wrapper'>
             <form onSubmit={handleSubmit}>
                 <h1>Inicia Sesión</h1>
                 <div className='input-box'>
@@ -63,7 +63,7 @@ const LoginPage = () => {
                     />
                     <FaLock className='icon'/>
                 </div>
-                <button className = "LR-page-button"type='submit'>Iniciar Sesión</button>
+                <button className="LR-page-button" type='submit'>Iniciar Sesión</button>
                 <div className='register-link'>
                     <p>No tienes una cuenta? <Link to='/register'>Regístrate</Link></p>
                 </div>
